@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px 160px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    margin-right: auto;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.list-a {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.list-style {
+    list-style: none;
+    font-size: 23px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 1px;
+}
+
+.link-a:hover {
+    color: rgb(15, 135, 135);
+    
+}
+
+.section-1 {
+    
+    margin: 150px 160px;
+    padding: 20px;
+}
+
+/* section-1 */
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    
+}
+
+.img-section {
+    margin-right: 240px;
+}
+
+.content-section {
+    text-align: center;
+    margin-top: -25px;
+    
+}
+.title-2 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.text-2, .text {
+    font-size: 20px;
+    color: grey;
+}
+
+.text-2 {
+    margin: 5px 0;
+}
+
+.img-1 {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    border: none;
+    object-fit: cover;
+}
+
+.content-links {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-links-a {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.img-2 {
+    margin-right: 5px;
+    max-width: 25px;
+    max-height: 25px;
+    scale: 10px;
+    
+}
+
+.text-3 {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    align-self: center;  
+    transition: all 400ms ease-in-out;
+}
+
+.link-b:hover {
+    color: rgb(15, 135, 135);
+}
+
+/* Button */
+
+.content-btn {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn-1 {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(15, 135, 135);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: all 400ms ease-in;
+    
+}
+.btn-2 {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: all 400ms ease-in;
+}
+
+.btn-2:hover {
+    
+    cursor: pointer;
+    background-color: rgb(6, 6, 6);
+}
+.btn-1:hover {
+    cursor: pointer;
+    background-color: rgb(20, 91, 91);
+}
+
+/* Section 2 */
+
+.section-2 {
+    margin: 0 160px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.content-section-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt1 {
+    margin-right: 5px;
+    font-size: 1.1rem;
+}
+
+.txt2 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.txt3 {
+    color: black;
+}
+
+.txt33 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.part-2 {
+    padding: 10px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.intro-part-2 {
+    text-align: center;
+}
+
+.sec_1 {
+    margin: 20px auto 100px auto;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    box-shadow: -2px 1px 0px 0px rgba(6, 6, 6, 0.986);
+    width: 600px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 50px;
+    height: 300px;
+    padding: 10px auto;
+    align-items: center;
+}
+
+.sec_2 {
+    display: flex;
+    gap: 10px;
+}
+
+/* Projects Content */
+
+.projects {
+    margin: 60px 160px;
+}
+
+.img-projects {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.project-container {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.image-one {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+}
+
+.btn-3 {
+
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    background-color: rgb(15, 135, 135);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: all 400ms ease-in;
+}
+
+.btn-3:hover {
+    
+    cursor: pointer;
+    background-color: rgb(6, 6, 6);
+}
+
+.link-c {
+    color: white;
+}
+
+.menu {
+    display: inline;
+    color: black;
+}
+
+.title-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-icon {
+    align-items: center;
+    height: 22px;
+    margin: 8px 0px 0 auto;
+    width: 22px;    
+}
+
+.title-menu-txt {
+    margin-right: auto;
+}
+
+.tbh {
+    display: none;
+}
+
+.tbh-2 {
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.tbh-list {
+    margin-top: -10px;
+    
+    display: none;
+}
+
+
+
+.list-tbh {
+    list-style: none;
+    font-size: 18px;
+    text-align: start;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 1px;
+}
+
+.contact {
+    margin: 100px auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.contact-part {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
