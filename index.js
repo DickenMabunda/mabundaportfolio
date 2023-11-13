@@ -7,7 +7,7 @@ listMenu.addEventListener('click',()=> {
 
         listMenu.classList.add("open")
     listMenu.style.display = "none";
-    closeIcon.style.display = "none";
+    closeIcon.style.display = "block";
 })
 
 
