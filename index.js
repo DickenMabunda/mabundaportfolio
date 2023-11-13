@@ -3,7 +3,12 @@ const listMenu = document.getElementById("tbh-list");
 const closeIcon = document.getElementById("closeList")
 
 
+listMenu.addEventListener('click',()=> {
 
+        listMenu.classList.add("open")
+    listMenu.style.display = "none";
+    closeIcon.style.display = "none";
+})
 
 
 open.addEventListener('click', ()=> {
