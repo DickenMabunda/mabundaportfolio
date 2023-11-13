@@ -162,7 +162,9 @@
         display: none;
     }
 
-    
+    .tbh-list {
+        text-align: center;
+    }
 
     .close-icon {
         display: none;
