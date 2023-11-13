@@ -368,7 +368,7 @@ a {
 .list-tbh {
     list-style: none;
     font-size: 18px;
-    text-align: start;
+    text-align: center;
     transition: all 300ms ease-in-out;
     letter-spacing: 1px;
 }
